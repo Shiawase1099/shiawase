@@ -8,8 +8,7 @@
   <body>
     <div class="container">
       <div class="left">
-        <img src="./bg.jpg" alt="background" class="bg" />
-        <div class="logo">in too</div>
+        <img src="./logo.svg" alt="background" class="bg" width="20%" />
       </div>
 
       <div class="right">
@@ -20,31 +19,39 @@
 
         <div class="socials">
           <button class="fb">
-            <img src="./facebook.svg" alt="background" class="fb" />
+            <img src="./facebook.svg" alt="background" width="20px" />
             Register with Facebook
           </button>
           <button class="in">
-            <img src="./linkedin.svg" alt="background" class="in" />
+            <img src="./linkedin.svg" alt="background" width="20px" />
             Register with Linked In
           </button>
         </div>
 
-        <div class="divider">OR</div>
+        <div class="divider">
+          <div class="line"></div>
+          <span>OR</span>
+          <div class="line"></div>
+        </div>
 
         <form>
           <div class="inputs">
-            <input type="email" placeholder="Email" />
-            <input type="text" placeholder="Phone" />
+            <label for="email">Email</label>
+            <input type="email" placeholder="" />
+            <label for="text">Phone</label>
+            <input type="text" placeholder="" />
           </div>
 
           <h3>What type of investor are you?</h3>
           <p class="hint">Select the type of investor you are below.</p>
 
           <div class="radio-group">
-            <label><input type="radio" name="type" checked /> Individual</label>
-            <label><input type="radio" name="type" /> Business</label>
-            <label><input type="radio" name="type" /> IRA</label>
-            <label><input type="radio" name="type" /> Trust</label>
+            <label
+              ><input type="radio" name="type" checked /> Individual ⓘ</label
+            >
+            <label><input type="radio" name="type" /> Business ⓘ</label>
+            <label><input type="radio" name="type" /> IRA ⓘ</label>
+            <label><input type="radio" name="type" /> Trust ⓘ</label>
           </div>
 
           <div class="info-box">
@@ -54,7 +61,8 @@
 
           <label class="checkbox">
             <input type="checkbox" />
-            I agree to the terms and receiving notifications
+            I agree to the terms and receiving notification from iintoo
+            <a href="">View full Terms</a>
           </label>
 
           <button class="submit">Create Account</button>
