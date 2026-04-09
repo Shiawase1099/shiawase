@@ -1,13 +1,13 @@
 @font-face {
   font-family: "BrThin";
-  src: url("/font/Barlow-Thin.otf") format("otf");
+  src: url("/font/Barlow-Regular.otf") format("opentype");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Barlow", sans-serif;
+  font-family: "BrThin", sans-serif;
 }
 
 body {
@@ -16,8 +16,8 @@ body {
 
 .container {
   display: flex;
-  max-width: 1100px;
-  height: 600px;
+  width: 1100px;
+  height: 550px;
   margin: 60px auto;
   background: #fff;
 }
